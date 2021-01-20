@@ -12,20 +12,29 @@ func TestHello(t *testing.T){
 	}
 
 	t.Run("Say hello to people", func(t *testing.T){
-		result := Hello("Chris")
+		result := Hello("Chris","")
 		expected := "Hello, Chris"
 		verifyCorrectMessage(t, result, expected)
 	
 	})
 
 	t.Run("'Hello, world' when 'string' is empty", func(t *testing.T) {
-		result := Hello("")
+		result := Hello("","")
 		expected := "Hello, world"
-
 		verifyCorrectMessage(t, result, expected)
 
 	})
 
+	t.Run("In Spanish", func(t *testing.T){
+		result := Hello("Elodie", "Spanish")
+		expected := "Hola, Elodie"
+		verifyCorrectMessage(t, result, expected)
+	})
 
+	t.Run("in French", func(t *testing.T){
+		result := Hello("John", "French")
+		expected := "Bonjour, John"
+		verifyCorrectMessage(t, result, expected)
+	})
 	
 }

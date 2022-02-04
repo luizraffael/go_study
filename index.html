@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Bukedit</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/png" href="assets/img/bukedit-logo.png" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS (includes Bootstrap)-->
+    <link href="css/bootstrap-4.0.0-dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <div class="banner masthead img-fluid align-items-center d-flex">
+      <!----------- NAVIGATION ---------------------->
+
+      <nav class="navbar navbar-expand-lg fixed-top py-3" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand-override text-uppercase" href="#home"
+            >bukedit</a
+          >
+
+          <button
+            class="
+              navbar-toggler navbar-toggler-right
+              text-uppercase
+              font-weight-light
+              mr-md-5
+              rounded
+            "
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item mx-0 mx-lg-1">
+                <a
+                  class="
+                    nav-link
+                    py-3
+                    px-0 px-lg-3
+                    rounded
+                    js-scroll-trigger
+                    font-weight-light
+                  "
+                  href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a
+                  class="
+                    nav-link
+                    py-3
+                    px-0 px-lg-3
+                    rounded
+                    js-scroll-trigger
+                    font-weight-light
+                  "
+                  href="#signup"
+                  >Sign up</a
+                >
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a
+                  class="
+                    nav-link
+                    py-3
+                    px-0 px-lg-3
+                    rounded
+                    js-scroll-trigger
+                    font-weight-light
+                  "
+                  href="#contact"
+                  >Contact us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!----------- MASTHEAD ---------------------->
+
+      <div class="container align-items-left pt-5" id="home">
+        <header class="text-black align-items-center" id="signup">
+          <div class="row">
+            <h1
+              class="
+                h1-override
+                text-uppercase
+                align-self-center
+                col-md-12 col-lg-5
+                text-left
+              "
+              id="h1-override"
+            >
+              the fastest way to get booked for events
+            </h1>
+          </div>
+          <form role="form" id="form" action="save.php" method="POST">
+            <div class="row"></div>
+            <div class="row">
+              <div class="col-xs-12">
+                <label
+                  class="
+                    sign-up-font
+                    col-form-label-lg
+                    align-self-center
+                    text-left
+                  "
+                  >Sign up now to be put on our waiting list</label
+                >
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-inline no-gutters sign-up-form col-lg-10">
+                <input
+                  class="form-control col-8 col-md-6 col-lg-4"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  style="padding-left: 9px"
+                />
+                <div class="col-4 col-md-4 col-lg-4">
+                  <button
+                    type="submit"
+                    class="btn btn-primary form-control responsive-button"
+                   
+
+                  >
+                    Sign up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </header>
+      </div>
+    </div>
+
+    <!----------- BIG BOOM ---------------------->
+    <section class="bg-section-big-boom my-5 full-height">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-9 text-center">
+            <h2 class="text-uppercase big-boom-title">the big boom!</h2>
+            <div class="row justify-content-center big-boom-content my-5 px-3">
+              <p class="mt-md-1 big-boom-text">
+                Now that restrictions have ended the events sector is booming as doors re-open.
+              </p>
+              <p class="mt-md-1 big-boom-text">
+                Postponed weddings and events will be back on with customers
+                hungrier than ever!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------- OUR SERVICES ---------------------->
+
+    <section class="page-section my-5 align-items-center" id="about">
+      <div class="os">
+        <div class="os__box"></div>
+        <div class="cards-container">
+          <div class="os-card" id="os-1">
+            <h3 class="os-card__text os-card__text--title">Get clients</h3>
+            <h4 class="os-card__text os-card__text--read-more">Read more</h4>
+          </div>
+          <div class="os-card" id="os-2">
+            <h3 class="os-card__text os-card__text--title">Get booked</h3>
+            <h4 class="os-card__text os-card__text--read-more">Read more</h4>
+          </div>
+          <div class="os-card" id="os-3">
+            <h3 class="os-card__text os-card__text--title">Make money</h3>
+            <h4 class="os-card__text os-card__text--read-more">Read more</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------- GET CLIENTS ---------------------->
+    <section class="page-section my-5 pt-5" id="getclients">
+      <div class="row no-gutters parent-container clients-container">
+        <div class="container-fluid col-12 col-md-12">
+          <div class="col-md-6 col-lg-6 float-left px-5 py-5 section-align">
+            <div class="row">
+              <h2
+                class="page-section-heading text-capitalize pt-3 mb-5"
+                id="get-clients"
+              >
+                get clients
+              </h2>
+            </div>
+            <div class="row mb-5">
+              <p class="get-content pb-5">
+                Have access to thousands of users throughout the UK who are
+                looking to book your services
+              </p>
+            </div>
+          </div>
+          <div
+            class="
+              container-fluid
+              col-12 col-md-6
+              float-right
+              py-5
+              px-5
+              bg-image
+              clients-image
+            "
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!----------- GET BOOKED ---------------------->
+
+    <section class="page-section my-5" id="getbooked">
+      <div class="row booked-container">
+        <div
+          class="
+            get-booked-background
+            order-2
+            col-12 col-md-5
+            py-5
+            px-5
+            align-items-center
+          "
+        >
+          <div class="container py-5 reset-padding">
+            <div class="row">
+              <h2
+                class="page-section-heading booked-content text-capitalize my-5"
+              >
+                get booked
+              </h2>
+            </div>
+            <div class="row">
+              <p class="get-content booked-content">More bookings than ever</p>
+            </div>
+            <div class="row">
+              <p class="get-content booked-content">
+                Get instant bookings available on your calender, and choose when
+                your business is open.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 col-md-6 col-lg-5 py-5 px-5 bg-image booked-image"
+        ></div>
+        <div class="col-md-1 order-3"></div>
+      </div>
+      <div class="mobile-get-booked-container">
+        <img src="./assets/img/happy-party.png" alt="get-booked" />
+      </div>
+    </section>
+
+    <!----------- Make Money ---------------------->
+
+    <section class="page-section my-5" id="getmoney">
+      <div class="row parent-container">
+        <div
+          class="
+            container
+            col-12 col-md-5
+            py-5
+            px-5
+            box-filler
+            section-align
+            make-money-ct
+          "
+        >
+          <div class="row">
+            <h2 class="page-section-heading text-capitalize pt-3 mb-5">
+              make money!
+            </h2>
+          </div>
+
+          <div class="row">
+            <p class="get-content">
+              Access to more clients means you make more money
+            </p>
+            <p class="get-content">Sign up now and get on the list</p>
+          </div>
+          <div class="row pb-1 mt-3">
+            <button
+              onclick="location.href='#home'"
+              type="button"
+              class="btn btn-primary"
+            >
+              Sign up
+            </button>
+          </div>
+        </div>
+        <div class="make-money-image-container">
+          <div
+            class="container col-12 col-md-3 bg-image money-image white-border"
+          ></div>
+          <div class="container col-md-3 burger-image"></div>
+        </div>
+        <div
+          class="
+            container
+            col-12 col-md-3
+            bg-image
+            money-image
+            white-border
+            hide-mobile
+          "
+        ></div>
+        <div
+          class="container col-md-3 burger-image white-border hide-mobile"
+        ></div>
+        <div class="col-md-1 box-filler" id="blue-rect"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section-->
+    <section class="page-section my-4" id="contact">
+      <div class="container">
+        <!-- Contact Section Heading-->
+        <h2
+          class="contact-heading text-center text-uppercase text-secondary my-4"
+        >
+          GET IN TOUCH
+        </h2>
+
+        <!-- Contact Section Form-->
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+            <div class="container contact-section px-5 py-4 mb-5 mt-3">
+              <form role="form" id="form" action="save.php" method="post">
+                <div class="control-group">
+                  <div
+                    class="form-group floating-label-form-group controls mb-0"
+                  >
+                    <label>Business name</label>
+                    <input
+                      class="form-control"
+                      id="business_name"
+                      name="business_name"
+                      type="text"
+                      placeholder="Business name"
+                      required="required"
+                      data-validation-required-message="Please enter with the name of your company"
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div
+                    class="form-group floating-label-form-group controls mb-0"
+                  >
+                    <label>First name</label>
+                    <input
+                      class="form-control"
+                      id="first_name"
+                      name="first_name"
+                      type="text"
+                      placeholder="First name"
+                      required="required"
+                      data-validation-required-message="Please enter your first name."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div
+                    class="form-group floating-label-form-group controls mb-0"
+                  >
+                    <label>Last name</label>
+                    <input
+                      class="form-control"
+                      id="last_name"
+                      name="last_name"
+                      type="text"
+                      placeholder="Last name"
+                      required="required"
+                      data-validation-required-message="Please enter your last name."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div
+                    class="form-group floating-label-form-group controls mb-0"
+                  >
+                    <label>Email address</label>
+                    <input
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="Email address"
+                      required="required"
+                      data-validation-required-message="Please enter your email address."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div
+                    class="form-group floating-label-form-group controls mb-0"
+                  >
+                    <label>Phone number</label>
+                    <input
+                      class="form-control"
+                      id="phone_number"
+                      name="phone_number"
+                      type="tel"
+                      placeholder="Phone number"
+                      required="required"
+                      data-validation-required-message="Please enter your phone number."
+                    />
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div
+                    class="form-group floating-label-form-group controls mb-0"
+                  >
+                    <label>Message</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      name="message"
+                      rows="3"
+                      placeholder="Type your message here..."
+                      required="required"
+                      data-validation-required-message="Please enter a message."
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <br />
+                <div id="success"></div>
+                <div class="form-group d-flex justify-content-center mt-4">
+                  <button
+                    class="btn btn-primary text-center sign-up-button col-lg-8"
+                    id="saveInfo"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">Copyright © Bukedit.com 2021</div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+      <a
+        class="js-scroll-trigger d-block text-center text-white rounded"
+        href="#page-top"
+        ><i class="fa fa-chevron-up"></i
+      ></a>
+    </div>
+
+    <!-- Modal Test-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-12">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title mb-5"
+                    id="portfolioModal1Label"
+                  >
+                    Congratulations!
+                  </h2>
+
+                  <!-- Portfolio Modal - Text-->
+                  <p class="portfolio-text">
+                    You are one of the first on the waiting list.
+                  </p>
+                  <p class="portfolio-text mb-5">
+                    That means when we are ready to launch the website you’ll be
+                    the first to know!
+                  </p>
+                  <button
+                    class="btn-modal btn btn-primary modal-btn"
+                    data-dismiss="modal"
+                  >
+                    Done
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,6 +1,9 @@
 package array_slice
 
-import "testing"
+import (
+	"reflect"
+	"testing"
+)
 
 func TestSoma(t *testing.T) {
 	t.Run("Colection of 5 numbers", func(t *testing.T) {
@@ -24,4 +27,13 @@ func TestSoma(t *testing.T) {
 			t.Errorf("Result %d, expected %d, data %v", result, expected, numbers)
 		}
 	})
+}
+func TestSumAll(t *testing.T) {
+
+	received := SumAll([]int{1, 2}, []int{0, 9})
+	expectec := []int{3, 9}
+
+	if !reflect.DeepEqual(received, expectec) {
+		t.Errorf("result %v expectec %v", received, expectec)
+	}
 }
